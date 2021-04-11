@@ -1,0 +1,74 @@
+/** LAYOUT E LINKS**/
+
+nav#menu ul{
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 30px;
+    right:150px;
+ }
+ 
+ nav#menu li{
+    display: inline-block;
+    background-color: #4e874f;
+    padding: 5px;
+    margin: 5px;
+    transition: background-color 1s;
+    
+ }
+ nav#menu li:hover{
+    background-color: #3ab23c;
+ }
+ 
+ nav#menu{
+    display: block;
+ }
+ 
+ nav#menu a{
+    color: black;
+    text-decoration: none;
+ }
+ nav#menu a:hover{
+    color: white;
+ }
+
+
+/**BODY**/
+ .title{
+    color: green;
+    text-align: center;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: Calibri,sans-serif;
+}
+
+p{
+   font-size: 20px; 
+   font-family: Calibri,sans-serif;
+   text-align: justify;
+}
+
+h3{
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: Calibri,sans-serif;
+    color: green;  
+}
+body{
+    background-color: #b0e2b1 ;
+}
+.name{
+    color: green;
+    
+}
+h5{
+ font-size: 20px;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: #000;
+ font-family: Calibri,sans-serif;
+ color: green;
+}

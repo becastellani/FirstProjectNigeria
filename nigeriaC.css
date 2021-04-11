@@ -1,0 +1,160 @@
+/** LAYOUT E LINKS**/
+
+nav#menu ul{
+   text-transform: uppercase;
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+   top: 30px;
+   right:150px;
+}
+
+nav#menu li{
+   display: inline-block;
+   background-color: #4e874f;
+   padding: 5px;
+   margin: 5px;
+   transition: background-color 1s;
+   
+}
+nav#menu li:hover{
+   background-color: #3ab23c;
+}
+
+nav#menu{
+   display: block;
+}
+
+nav#menu a{
+   color: black;
+   text-decoration: none;
+}
+nav#menu a:hover{
+   color: white;
+}
+
+
+/** TEXTO**/
+
+
+h1{
+ font-size: 50px;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: #000;
+ font-family: Calibri,sans-serif;
+ color: green;
+ 
+}
+h2{
+   font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: Calibri,sans-serif;
+  color: green;
+  
+  
+ }
+ p{
+   font-size: 20px;
+   font-family: Calibri,sans-serif;
+ }
+ 
+ 
+ h4{
+    font-size: 25px;
+   font-family: Calibri,sans-serif;
+ }
+body{
+   background-color: #b0e2b1;
+}
+
+h5{
+ font-size: 20px;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: #000;
+ font-family: Calibri,sans-serif;
+ color: green;
+}
+
+.texto{
+ font-family: Calibri,sans-serif;
+ font-size: 24px;
+ 
+}
+
+/** INTERFACE**/
+div#interface {
+   width: 900px;
+   background:  #a8ffa9;
+   margin-top: -15px;
+   margin-right: 20px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+   box-shadow: black;
+   padding:10px;
+   
+  }
+  
+  header#cabeçalho  img#icone{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+  
+  }
+  aside {
+   position: absolute;
+   top:290px;
+   right: 15px;
+   width: 27%;
+   background-color: #a8ffa9;
+ }
+
+ /**ANIMAÇÃO NOTICIA**/
+
+nav#noticia ul{
+   text-transform: uppercase;
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+   top: 250px;
+   right:120px;
+}
+
+nav#noticia li{
+   display: inline-block;
+   background-color: #4e874f;
+   padding: 5px;
+   margin: 5px;
+   transition: background-color 1s;
+   
+}
+nav#noticia notice:hover{
+   background-color: #3ab23c;
+ 
+}
+
+nav#noticia{
+   display: block;
+
+}
+
+nav#noticia a{
+   color: black;
+   text-decoration: none;
+}
+nav#noticia a:hover{
+   color: black;
+}
+#mapaa{
+  text-align: center;
+}
+#casos{
+  font-size: 25px;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: #000;
+ font-family: Calibri,sans-serif;
+ color: green;
+ 
+}
